@@ -15,7 +15,7 @@ function Discover() {
   if (isFetching) return <Loader title="Loading" />;
   if (error) return <Error />;
   // console.log(data.albums.items[0].data.name);
-  console.log(data.tracks[0]);
+  // console.log(data.tracks[0]);
   return (
     <div className="flex flex-col">
       <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
